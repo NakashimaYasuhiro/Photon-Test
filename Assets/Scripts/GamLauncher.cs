@@ -37,13 +37,10 @@ public class GameLauncher : MonoBehaviour, INetworkRunnerCallbacks
 
             NetworkObject avatar = runner.Spawn(playerAvatarPrefab, position, rotation, player);
 
-            // UI‚ÌQÆ‚ğAvatar‚É“n‚·
-            IsTheAnimalNetwork animalScript = avatar.GetComponent<IsTheAnimalNetwork>();
-            if (animalScript != null)
-            {
-                var gm = GameManager.Instance;
-                animalScript.SetUIReferences(gm.GetSucceedPanel(), gm.GetFailedPanel());
-            }
+          
+            GameManager.Instance.networkGameManager = avatar.GetComponent<NetworkGameManager>();
+
+            
         }
     }
 

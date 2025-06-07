@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dcdbb963cb54204ca11929cf6b1c787, type: 3}
+  m_Name: AnimalData
+  m_EditorClassIdentifier: 
+  panelName: Animals
+  items:
+  - itemName: Lion
+    itemImage: {fileID: 21300000, guid: 9b3f5fc1af6d0bb4a9e60c7cc2804ca4, type: 3}
+  - itemName: Rabbit
+    itemImage: {fileID: 21300000, guid: 262b99b7263ab924d932bb6466434b90, type: 3}
+  - itemName: Elephant
+    itemImage: {fileID: 21300000, guid: b7449a83b6f1e824a9ddf8ef32f4039c, type: 3}
+  - itemName: Kangaroo
+    itemImage: {fileID: 21300000, guid: cdcb5cd9bf85bab47b5922c3c092e09a, type: 3}
+  - itemName: Monkey
+    itemImage: {fileID: 21300000, guid: 82d08ed49fc62804f8fc39857722230b, type: 3}
+  - itemName: Penguin
+    itemImage: {fileID: 21300000, guid: 7aeed1024e0b6494ea21c1781aab4c66, type: 3}
+  - itemName: Dog
+    itemImage: {fileID: 21300000, guid: b524dcff22b0fcb45a138fd2f63e34c9, type: 3}
+  - itemName: Snake
+    itemImage: {fileID: 21300000, guid: a18cc3762bd4343488ec77af39196854, type: 3}
+  - itemName: Dolphin
+    itemImage: {fileID: 21300000, guid: d9657104af2b2bf4ea192863efae52e9, type: 3}
+  - itemName: Frog
+    itemImage: {fileID: 21300000, guid: c26471ea53a22b4498396f07458c7be1, type: 3}
+  - itemName: Horse
+    itemImage: {fileID: 21300000, guid: 968213a0e03428142a468c0241c7ead8, type: 3}
+  - itemName: Giraffe
+    itemImage: {fileID: 21300000, guid: e06c4f54dbf5b964c8e38eda0e0a0c55, type: 3}
+  - itemName: Owl
+    itemImage: {fileID: 21300000, guid: 5f2f04276659c884d845cd3135159a0b, type: 3}
+  - itemName: Turtle
+    itemImage: {fileID: 21300000, guid: 098bb9a955cf9084e9078808501f8095, type: 3}
+  - itemName: Bear
+    itemImage: {fileID: 21300000, guid: 756d512f660ea294f99c9697acd4e189, type: 3}
